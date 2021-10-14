@@ -22,13 +22,13 @@ type bike struct {
 
 // Values array for the feedback.json file
 type Values struct {
-	models []Model
+	Models []Model
 }
 
 // Model array for the feedback.json file
 type Model struct {
-	name     string
-	feedback []string
+	Name     string
+	Feedback []string
 }
 
 type feedbackResult struct {
